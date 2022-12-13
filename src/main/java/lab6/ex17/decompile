@@ -1,0 +1,36 @@
+/* Decompiler 3ms, total 843ms, lines 36 */
+public class Employee implements Comparable<Employee> {
+   private String name;
+   private double salary;
+
+   public Employee(String var1, double var2) {
+      this.name = var1;
+      this.salary = var2;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public void setName(String var1) {
+      this.name = var1;
+   }
+
+   public double getSalary() {
+      return this.salary;
+   }
+
+   public void setSalary(double var1) {
+      this.salary = var1;
+   }
+
+   public int compareTo(Employee var1) {
+      return Double.compare(this.salary, var1.salary);
+   }
+
+   // $FF: synthetic method
+   // $FF: bridge method
+   public int compareTo(Object var1) {
+      return this.compareTo((Employee)var1);
+   }
+}

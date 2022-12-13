@@ -1,0 +1,3 @@
+comb files/One.txt files/Two.txt files/Three.txt
+comb -rm files/One.txt files/Two.txt files/Three1.txt
+comb files/T1.txt files/T2.txt files/T3.txt
